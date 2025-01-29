@@ -2,7 +2,7 @@
 
 $host='localhost';
 $user='root';
-$password='';
+$password=null;
 $db='login_register';
 
 $conn= new mysqli($host,$user,$password,$db);
